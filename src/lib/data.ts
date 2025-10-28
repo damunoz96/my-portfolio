@@ -21,7 +21,7 @@ export const workExperience = [
     company: "Sabios de Manizales",
     location: "Palmira, Colombia",
     position: "Professional basketball player",
-    period: "Jan 2023 - Jun 2024",
+    period: "Jul 2021 - Dec 2023",
     achievements: [
       "Played in the Professional Basketball Division (DPB) with the roster of the professional team called Sabios-azucareros, based in the city of Palmira, Colombia.",
     ],
