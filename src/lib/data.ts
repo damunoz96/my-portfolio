@@ -1,3 +1,5 @@
+import { link } from "framer-motion/client";
+
 export const personalInfo = {
   name: "Daniel Muñoz",
   location: "Cali, Colombia",
@@ -13,7 +15,7 @@ export const workExperience = [
     position: "Web developer",
     period: "Jul 2024 - Present",
     achievements: [
-      "- Developed a team management web application using Angular, TailwindCSS, and Supabase. The app allows authenticated users to create, edit, delete, and view tasks, as well as assign a date to them using a calendar picker. Implemented authentication and user management with Supabase, including a secure login system.",
+      "- Developed a team management web application using Angular, TailwindCSS, and Supabase. The app allows authenticated users to create, edit, delete, and view players and games, as well as assign a stats to them. Implemented authentication and user management with Supabase, including a secure login system.",
 
       "- Created an e-commerce web application using Shopify to MIMIBYJULI, integrating various payment gateways and ensuring a seamless user experiencie. I focused on optimizing the user interface and enhancing the overall shopping experiencie. Additionally, developed a the app to the client's specifications and followed SEO best practices to improve visibility and ranking on search engines.",
 
@@ -79,23 +81,23 @@ export const projects = [
     github: "https://github.com/damunoz96/react-todo-list.git",
     link: "https://etm.damunoz.online/",
     description: [
-      "Full-stack task management app where users can create, edit, delete, and view tasks with assigned deadlines via a calendar picker",
+      "Full-stack team management app where users can create, edit, delete, and view players and games with their respective stats",
       "Utilizes Angular and TailwindCSS for the frontend, with React Router for navigation.",
       "Includes secure user authentication with Supabase and responsive UI.",
     ],
   },
   {
     title: "MIMIBYJULI",
-    github: "https://mimibyjuli.com/",
+    link: "https://mimibyjuli.com/",
     description: [
-      "E-commerce store specialized in streetwear fashion, designed and developed using Shopify with customizations in Liquid",
-      "The concept of the store is inspired by religious accessories",
+      "E-commerce store specialized in religious accessories, designed and developed using Shopify with customizations in Liquid",
       "Implemented custom product pages, optimized navigation, and marketing-ready tools like link tracking for creators, Shopify Discounts, and responsive layouts",
     ],
   },
   {
     title: "TODO LIST",
     github: "https://github.com/damunoz96/react-todo-list.git",
+    link: "https://todolistddmm.netlify.app/login",
     description: [
       "Full-stack task management app where users can create, edit, delete, and view tasks with assigned deadlines via a calendar picker",
       "Utilizes React, JavaScript, and TailwindCSS for the frontend, with React Router for navigation.",
@@ -105,7 +107,7 @@ export const projects = [
   },
   {
     title: "OPALION",
-    github: "https://opalion.co/",
+    link: "https://www.instagram.com/opalionco/?hl=es-la",
     description: [
       "E-commerce store specialized in streetwear fashion, designed and developed using Shopify with customizations in Liquid and Tailwind-style CSS.",
       "The store concept is inspired by musical tones and rhythm, blending fashion with sound",

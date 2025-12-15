@@ -2,6 +2,7 @@ import { personalInfo } from "@/lib/data";
 import { Mail, Github, MapPin, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
+import "../styles/global.css"
 
 export default function HeroSection() {
   const containerVariants = {
@@ -130,7 +131,7 @@ export default function HeroSection() {
               and high-performance user interfaces. I specialize in translating
               designs and business requirements into clean, maintainable, and
               optimized code, with a strong focus on development best practices
-              and end-user experience. Translated with DeepL.com (free version)
+              and end-user experience.
             </p>
           </div>
         </MotionWrapper>
